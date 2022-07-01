@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serief;
+    background-color: #E5E5E5;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    display: block;
+    /* Olmayabilir*/text-align: -webkit-center;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+element.style {
+    float: left;
+}
+img{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div.loginBox {
+    display: block;
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+}
+.noteDiv {
+    color: gray;
+    font-family: Arial;
+    width: 395px;
+    text-align: left;
+    margin: 0px auto;
+    font-size: 14px;
+}
+#note {
+    display: inline-block;
+    vertical-align: top;
+    _display: inline;
+    _zoom: 1;
+    width: 50px;
+    font-weight: bold;
+}
+#tip {
+    display: inline-block;
+    vertical-align: top;
+    _display: inline;
+    _zoom: 1;
+    width: 340px;
+}
+div.panelThre {
+    margin-top: 10px;
+}
+div.picDiv {
+    width: 395px;
+    height: 276px;
+    background: url(bg2.jpg);
+    position: relative;
+}
+ul {
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+li.unLi {
+    background: url(idunselect.png);
+}
+ul li {
+    height: 34px;
+    width: 222px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+input.text {
+    border: 0px;
+    height: 26px;
+    line-height: 26px;
+    width: 175px;
+    padding: 0px;
+    margin: 4px 0px 0px 30px;
+    font-size: 14px;
+    color: #6a6969;
+    font-family: "Verdana","Arial";
+    outline: none;
+}
+li.blank {
+    height: 15px;
+}
+li.pwLi {
+    background: url(pwunselect.png);
+}
+label.loginBtn {
+    height: 34px;
+    display: inline-block;
+    width: 113px;
+    margin-top: 30px;
+    background: url(login_tr.png);
+    cursor: pointer;
+}
+label {
+    cursor: default;
+}
+#copyright {
+    -webkit-text-size-adjust: none;
+    font-size: 9px;
+    color: #6a6969;
+    font-family: "Verdana";
+    margin-top: 40px;
+    display: inline-block;
+}
