@@ -1,4 +1,4 @@
 # tplink
-Tp-Link modem index page
+Tp-Link modem interface page
 
 By: K.Eray
